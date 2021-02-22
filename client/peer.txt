@@ -1,0 +1,11 @@
+# strategy for node selecting
+strategy        fifo
+max_fails       1
+fail_timeout    30s
+
+# period for live reloading
+reload          10s
+
+# peers
+peer    relay+ws://user:password@1.1.1.1:8080
+peer    relay+ws://user:password@1.0.0.1:8080
