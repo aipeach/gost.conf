@@ -16,6 +16,9 @@
 ### config-client-3.json
 一个客户端对应多个服务端 **负载均衡**
 
+> https://github.com/aipeach/gost.conf/blob/main/client/config-client-3.json
+> https://github.com/aipeach/gost.conf/blob/main/client/peer.txt
+
 参数说明:
 
 `strategy` -  指定节点选择策略，`round` - 轮询，`random` - 随机, `fifo` - 自上而下。
@@ -27,5 +30,3 @@
 `reload` - 配置文件热更新。此选项用来指定文件检查周期,默认为10秒。
 
 `peer` - 指定节点列表。
-
-> https://github.com/aipeach/gost.conf/blob/main/client/config-client-3.json
